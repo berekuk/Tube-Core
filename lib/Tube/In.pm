@@ -1,4 +1,4 @@
-package Potok::In;
+package Tube::In;
 
 # ABSTRACT: input stream role
 
@@ -12,7 +12,7 @@ use Moo::Role;
 
 =head1 DESCRIPTION
 
-C<Potok::In> is a role which every reading stream must implement.
+C<Tube::In> is a role which every reading stream must implement.
 
 Consumers must implement C<read>, C<read_chunk> and C<commit> methods.
 

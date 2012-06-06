@@ -1,9 +1,9 @@
-package Potok::Storage;
+package Tube::Storage;
 
 # ABSTRACT: interface to any storage.
 
 use Moo::Role;
-with 'Potok::Out';
+with 'Tube::Out';
 
 =head1 SYNOPSIS
 
@@ -14,7 +14,7 @@ with 'Potok::Out';
 
 =head1 DESCRIPTION
 
-C<Potok::Storage> is a role which every stream storage must implement.
+C<Tube::Storage> is a role which every stream storage must implement.
 
 Objects implementing this role can act as output streams, and they can also generate associated input stream with C<in> method.
 

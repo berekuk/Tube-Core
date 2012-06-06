@@ -1,4 +1,4 @@
-package Potok::Role::Description;
+package Tube::Role::Description;
 
 use Moo::Role;
 

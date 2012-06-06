@@ -1,4 +1,4 @@
-package Potok::Out;
+package Tube::Out;
 
 # ABSTRACT: output stream interface
 
@@ -6,7 +6,7 @@ use Moo::Role;
 
 =head1 SYNOPSIS
 
-    use Potok::Out;
+    use Tube::Out;
 
     $out->write($item);
     $out->write_chunk(\@items);
@@ -14,7 +14,7 @@ use Moo::Role;
 
 =head1 DESCRIPTION
 
-C<Potok::Out> is a role which every writing stream must implement.
+C<Tube::Out> is a role which every writing stream must implement.
 
 =head1 INTERFACE
 
@@ -53,7 +53,7 @@ requires 'commit';
 
 =head1 SEE ALSO
 
-L<Potok::Storage> - role for persistent storages which are also output streams.
+L<Tube::Storage> - role for persistent storages which are also output streams.
 
 =cut
 
